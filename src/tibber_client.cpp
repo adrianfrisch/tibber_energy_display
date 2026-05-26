@@ -75,8 +75,7 @@ bool fetchPrices() {
     }
 
     WiFiClientSecure client;
-    client.setCACert(TIBBER_ROOT_CA);
-
+    client.setInsecure();
     HTTPClient http;
     String url = String("https://") + TIBBER_API_HOST + TIBBER_API_PATH;
 
