@@ -2,9 +2,11 @@
 #include "config.h"
 #include <TFT_eSPI.h>
 
+// Global TFT instance – shared with TouchHandler via extern
+TFT_eSPI tft = TFT_eSPI();
+
 namespace Display {
 
-static TFT_eSPI tft = TFT_eSPI();
 static TFT_eSprite sprite = TFT_eSprite(&tft);
 
 /// Map a Tibber price level string to an RGB565 color.
