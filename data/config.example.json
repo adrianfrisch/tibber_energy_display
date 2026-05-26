@@ -1,0 +1,11 @@
+{
+  "wifi_ssid": "YOUR_WIFI_SSID",
+  "wifi_password": "YOUR_WIFI_PASSWORD",
+  "tibber_token": "YOUR_TIBBER_API_TOKEN",
+  "timezone": "CET-1CEST,M3.5.0,M10.5.0/3",
+  "home_index": 0,
+  "currency_unit": "ct/kWh",
+  "price_multiplier": 100.0,
+  "display_brightness": 80
+}
+

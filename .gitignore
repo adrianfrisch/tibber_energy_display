@@ -1,0 +1,26 @@
+# PlatformIO
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.swp
+*~
+
+# Build artifacts
+.build/
+cmake-build-*/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Sensitive data — contains WiFi password and API tokens
+data/config.json
+
+# Generated STL files
+enclosure/*.stl
+
